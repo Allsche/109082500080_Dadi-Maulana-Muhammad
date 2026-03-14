@@ -36,7 +36,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/Allsche/109082500080_Dadi-Maulana-Muhammad/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/Allsche/109082500080_Dadi-Maulana-Muhammad/blob/main/modul2/output/output-soal1.png)
 [penjelasan]
 Program Go tersebut meminta pengguna memasukkan tiga buah string yang disimpan dalam variabel satu, dua, dan tiga, lalu menampilkan ketiga nilai tersebut sebagai output awal. Setelah itu program melakukan proses rotasi nilai variabel menggunakan variabel sementara temp, di mana nilai satu disimpan terlebih dahulu ke temp, kemudian satu diisi dengan nilai dua, dua diisi dengan nilai tiga, dan tiga diisi kembali dengan nilai yang ada di temp. Proses ini menyebabkan urutan nilai bergeser ke kiri dari (satu, dua, tiga) menjadi (dua, tiga, satu), kemudian hasil akhirnya ditampilkan sebagai output akhir.
 
@@ -79,6 +79,6 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/Allsche/109082500080_Dadi-Maulana-Muhammad/blob/main/modul1/output/output-soal2.png)
+![Screenshot Output Unguided 1_1](https://github.com/Allsche/109082500080_Dadi-Maulana-Muhammad/blob/main/modul2/output/output-soal2.png)
 [penjelasan]
 Program Go tersebut digunakan untuk mencatat hasil 5 kali percobaan dengan memasukkan 4 warna dari tabung reaksi pada setiap percobaan. Program membaca input warna secara berurutan, lalu memeriksa apakah susunannya sama dengan urutan yang ditentukan yaitu “merah”, “kuning”, “hijau”, dan “ungu”. Pemeriksaan dilakukan menggunakan perulangan sebanyak lima kali, dan setiap kali urutan warna tidak sesuai maka variabel penanda keberhasilan akan diubah menjadi false. Setelah seluruh percobaan selesai, program akan menampilkan hasil akhir berupa true jika semua percobaan memiliki urutan warna yang benar, atau false jika ada satu atau lebih percobaan yang tidak sesuai dengan urutan yang ditentukan.
